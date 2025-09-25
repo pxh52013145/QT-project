@@ -1,0 +1,111 @@
+# Qt Creator
+*.pro.user
+*.pro.user.*
+*.qws
+*.tmp
+
+# Qt build files
+build-*
+*-build-*
+build/
+debug/
+release/
+Desktop_Qt_*
+
+# Qt generated files
+# ui_*.h  # Commented out because we manually created ui_qwmainwind.h
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+*_resource.rc
+object_script.*.Release
+object_script.*.Debug
+
+# Executables
+*.exe
+*.app
+
+# Object files
+*.o
+*.obj
+
+# Libraries
+*.lib
+*.a
+
+# Qt Installer Framework
+*.qmlc
+*.jsc
+
+# C++ objects and libs
+*.slo
+*.lo
+*.o
+*.a
+*.la
+*.lai
+*.so
+*.dll
+*.dylib
+
+# Qt-es
+object_script.*.Release
+object_script.*.Debug
+*_plugin_import.cpp
+/.qmake.cache
+/.qmake.stash
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+# ui_*.h  # Already handled above
+*.qmlc
+*.jsc
+Makefile*
+*build-*
+
+# Qt unit tests
+target_wrapper.*
+
+# QtCreator
+*.autosave
+
+# QtCreator Qml
+*.qmlproject.user
+*.qmlproject.user.*
+
+# QtCreator CMake
+CMakeLists.txt.user*
+
+# QtCreator 4.8< compilation database 
+compile_commands.json
+
+# QtCreator local machine specific files for imported projects
+*creator.user*
+
+# Temporary Qt Creator files
+*.tmp
+*.autosave
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
